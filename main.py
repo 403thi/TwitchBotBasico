@@ -1,4 +1,3 @@
-from twitchio.ext import commands
 # Fiz esse repositório pois não achei conteúdo sobre twitchio em português, e foi dificil eu enteder o conteúdo gringo para dar os primeiros passos
 # Bom, vamos lá...
 # Crie uma conta para seu bot e ative a verificação de duas etapas
@@ -10,6 +9,8 @@ from twitchio.ext import commands
 # Na "categoria" coloque Chat Bot
 # Para criar uma aplicação você precisa ter a verificação de duas etapas
 # Agora, segue o código
+from twitchio.ext import commands
+
 token = "oauth:TOKEN AQUI"
 clientid= "CLIENT ID AQUI"
 bot = commands.Bot(
